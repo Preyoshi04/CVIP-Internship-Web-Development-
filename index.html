@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="#home" class="logo"><span>M</span>y<span>P</span>ortfolio</a>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#experience">Experience</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!--home-->
+    <section class="home" id="home">
+
+        <div class="home-img">
+            <img src="about.jpg">
+        </div>
+
+        <div class="home-content">
+            <h1>It's <span>Preyoshi</span></h1>
+            <h3 class="text-animation">
+                I'm a <br><span></span>
+            </h3>
+
+            <p>Welcome to my Portfolio Website. <br> Scroll down to know more.</p>
+
+            <div class="social-icons">
+                <a href="https://www.facebook.com/"><i class='bx bxl-facebook-circle'></i></a>
+                <a href="https://www.instagram.com/"><i class='bx bxl-instagram'></i></a>
+                <a href="https://www.linkedin.com/"><i class='bx bxl-linkedin-square'></i></a>
+                <a href="https://www.github.com/"><i class='bx bxl-github'></i></a>
+            </div>
+            <a href="#" class="btn">Hire Me</a>
+        </div>
+    </section>
+
+    <!--about-->
+    <section class="about" id="about">
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3 class="text-animation">
+                <span></span>
+                <p>I am currently pursuing Bachelors In Computer Science and Engineering (2nd year) at Future
+                    Institute of Engineering and Management.I have a deep interest in Web development domain.I
+                    am learning Full stack web development and making projects accordingly.I have worked as a
+                    volunteer of techno management club of FIEM, XPLORICA to organize our annual tech fest
+                    PHOENIX'23.Now I am the member of graphics team as well as technical team of our techno
+                    management club and official activity club of FIEM , Team XPLORICA.</p>
+                <a href="#" class="btn">Read More</a>
+            </h3>
+        </div>
+
+        <div class="about-img">
+            <img src="about.jpg">
+        </div>
+    </section>
+
+    <!--skills-->
+    <section class="skills" id="skills">
+        <h2 class="heading"><span>M</span>y <span>S</span>kills</h2>
+
+        <div class="skills-container">
+            <div class="skills-box">
+                <div class="skills-info">
+                    <i class='bx bx-code-alt'></i>
+                    <h4>MERN Stack Web Development</h4>
+                </div>
+            </div>
+
+            <div class="skills-box">
+                <div class="skills-info">
+                    <i class='bx bxs-pyramid'></i>
+                    <h4>Adobe Photoshop</h4>
+                </div>
+            </div>
+
+            <div class="skills-box">
+                <div class="skills-info">
+                    <i class='bx bx-code-block'></i>
+                    <h4>Fundamentals of IT Languages<br>(C,Java,Python)</h4>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--projects-->
+    <section class="projects" id="projects">
+        <h2 class="heading"><span>M</span>y <span>P</span>rojects</h2>
+
+        <div class="projects-container">
+            <div class="projects-box">
+                <div class="projects-info">
+                    <i class='bx bx-windows'></i>
+                    <h4>College Website</h4>
+                    <p>I implemented this responsive college website by using HTML , CSS , Javascript and React Js.</p>
+                </div>
+            </div>
+
+            <div class="projects-box">
+                <div class="projects-info">
+                    <i class='bx bx-cloud'></i>
+                    <h4>Weather Forecast Website</h4>
+                    <p>I implemented this responsive weather forecasting website using HTML , CSS and Javascript.This
+                        website is designed to show the weather forecast of the particular location which will be
+                        inputted by the user.</p>
+                </div>
+            </div>
+
+            <div class="projects-box">
+                <div class="projects-info">
+                    <i class='bx bxs-user-circle'></i>
+                    <h4>Personal Portofolio Website</h4>
+                    <p>I implemented this responsive Personal Portfolio Website using HTML , CSS and Javascript.This
+                        website includes the about , skills , experiments and projects of me.</p>
+                </div>
+            </div>
+
+            <div class="projects-box">
+                <div class="projects-info">
+                    <i class='bx bxs-calculator'></i>
+                    <h4>Calculator Website</h4>
+                    <p>I implemented this Calculator Website using HTML , CSS and Javascript.</p>
+                </div>
+            </div>
+
+            <div class="projects-box">
+                <div class="projects-info">
+                    <i class='bx bx-list-check'></i>
+                    <h4>To-do List Website</h4>
+                    <p>I implemented this responsive To-do List using HTML , CSS and Javascript.All the entries can be
+                        edited as well as deleted.</p>
+                </div>
+            </div>
+
+            <div class="projects-box">
+                <div class="projects-info">
+                    <i class='bx bxs-credit-card-alt'></i>
+                    <h4>Expense Tracker Website</h4>
+                    <p>I implemented this responsive Expense Tracker Website which takes the income as well as expenses
+                        as input and makes a list of the expense products , then it calculates my remaining balance.
+                        Then I integrated it with local storage so that the history will not be cleared.All the entries
+                        can be edited as well as deleted.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!--experinece-->
+
+    <section class="experience" id="experience">
+        <h2 class="heading"><span>M</span>y <span>E</span>xperiences</h2>
+
+        <div class="experience-container">
+            <div class="experience-box">
+                <div class="experience-info">
+                    <i class='bx bxs-briefcase'></i>
+                    <h4>Web Development Intern @CodeAlpha</h4>
+                </div>
+            </div>
+
+            <div class="experience-box">
+                <div class="experience-info">
+                    <i class='bx bxs-briefcase'></i>
+                    <h4>Web Development Intern @CodersCave</h4>
+                </div>
+            </div>
+
+            <div class="experience-box">
+                <div class="experience-info">
+                    <i class='bx bxs-briefcase'></i>
+                    <h4>Web Development Intern @Oasis Infobyte</h4>
+                </div>
+            </div>
+
+            <div class="experience-box">
+                <div class="experience-info">
+                    <i class='bx bxs-briefcase'></i>
+                    <h4>Web Development Intern @Bharat Intern</h4>
+                </div>
+            </div>
+
+            <div class="experience-box">
+                <div class="experience-info">
+                    <i class='bx bxs-briefcase'></i>
+                    <h4>Student Volunteer of Techno-management Club of college</h4>
+                </div>
+            </div>
+
+            <div class="experience-box">
+                <div class="experience-info">
+                    <i class='bx bxs-briefcase'></i>
+                    <h4>Working Committe Member of Techno-management Club of college</h4>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--contact-->
+    <section class="contact" id="contact">
+        <h2 class="heading"><span>C</span>ontact <span>M</span>e</h2>
+<form action="#">
+        <div class="input-box">
+            <input type="text" placeholder="Enter your name" required>
+            <input type="email" placeholder="Enter your email-id" required>
+        </div>
+        <div class="input-box">
+            <input type="number" placeholder="Enter your mobile number" required>
+            <input type="text" placeholder="Enter Subject">
+        </div>
+
+        <textarea name="" id="" cols="30" rows="10" placeholder="Your Messege"></textarea>
+        <input type="submit" value="Send Messege" class="btn">
+    </form>
+
+    </section>
+
+    <!--footer-->
+
+    <footer class="footer" id="footer">
+
+        <div class="social">
+            <a href="https://www.facebook.com/"><i class='bx bxl-facebook-circle'></i></a>
+            <a href="https://www.instagram.com/"><i class='bx bxl-instagram'></i></a>
+            <a href="https://www.linkedin.com/"><i class='bx bxl-linkedin-square'></i></a>
+            <a href="https://www.github.com/"><i class='bx bxl-github'></i></a>
+        </div>
+        <a href="#home" class="back"><i class='bx bx-caret-up-circle'></i></a>
+    </footer>
+    
+</body>
+
+</html>
